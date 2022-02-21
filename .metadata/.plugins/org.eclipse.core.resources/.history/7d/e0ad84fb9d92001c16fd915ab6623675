@@ -1,0 +1,12 @@
+package com.dio;
+
+public class PrimeiroPrograma {
+
+	public static void main(String[] args) {
+		int a = 1982;
+		int b= 2022;
+		System.out.println("vanessa tem:  " + (b-a)+" anos");
+		
+	}
+
+}

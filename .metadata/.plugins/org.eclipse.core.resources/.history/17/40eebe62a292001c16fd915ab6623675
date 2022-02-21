@@ -1,0 +1,25 @@
+package br.com.dio;
+
+import br.com.dio.model.Gato;
+
+public class PrimeiroPrograma {
+
+	public static void main(String[] args) {
+		
+		Gato gato = new Gato();
+		Livros livros = new Livros();
+		
+		System.out.println(gato);
+		
+		/*int a = 1982;
+		int b= 2022;
+		System.out.println("vanessa tem:  " + (b-a)+" anos");
+		*/
+	}
+
+}
+
+class Livros {
+	private String nome;
+	private String npag;
+}
